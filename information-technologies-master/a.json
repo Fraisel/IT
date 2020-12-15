@@ -1,0 +1,63 @@
+{
+    "database_name": "a",
+    "tables": {
+        "test": {
+            "columns": {
+                "c1": {
+                    "type": "Int",
+                    "min": null,
+                    "max": null
+                },
+                "c2": {
+                    "type": "Str",
+                    "min": null,
+                    "max": null
+                },
+                "c3": {
+                    "type": "Money",
+                    "min": null,
+                    "max": null
+                },
+                "c4": {
+                    "type": "MoneyInvl",
+                    "min": 3,
+                    "max": 5
+                }
+            },
+            "rows": [
+                {
+                    "c1": 6,
+                    "c2": "test_file",
+                    "c3": "$3.00",
+                    "c4": "$4"
+                },
+                {
+                    "c1": null,
+                    "c2": "ef",
+                    "c3": null,
+                    "c4": null
+                }
+            ]
+        },
+        "test_2": {
+            "columns": {
+                "name": {
+                    "type": "Str",
+                    "min": null,
+                    "max": null
+                },
+                "height": {
+                    "type": "Float",
+                    "min": null,
+                    "max": null
+                }
+            },
+            "rows": [
+                {
+                    "name": "Alex",
+                    "height": 24.3
+                }
+            ]
+        }
+    }
+}
